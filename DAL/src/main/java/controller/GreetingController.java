@@ -8,6 +8,7 @@ public class GreetingController {
 
 	@RequestMapping("/")
 	public String home() {
+		System.out.println("Entered into home()");
 	return "Spring boot is working!";
 	}
 
